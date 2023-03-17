@@ -29,7 +29,7 @@
     <version>2.4.0-SNAPSHOT</version>
     <packaging>pom</packaging>
     <name>Hop Assemblies Plugins Technology Neo4j</name>
-    <description />
+    <description/>
 
     <properties>
         <neo4j.driver.version>4.4.11</neo4j.driver.version>
@@ -44,7 +44,7 @@
         <dependency>
             <groupId>org.reactivestreams</groupId>
             <artifactId>reactive-streams</artifactId>
-            <version>1.0.3</version>
+            <version>1.0.4</version>
         </dependency>
         <dependency>
             <groupId>org.neo4j.driver</groupId>
