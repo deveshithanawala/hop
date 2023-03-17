@@ -31,10 +31,10 @@
     <packaging>pom</packaging>
 
     <name>Hop Assemblies Plugins Transforms Kafka</name>
-    <description />
+    <description/>
 
     <properties>
-        <mongo-driver.version>3.12.8</mongo-driver.version>
+        <mongo-driver.version>3.12.12</mongo-driver.version>
     </properties>
 
     <dependencies>
