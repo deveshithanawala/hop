@@ -138,7 +138,7 @@
         <grpc.version>1.50.2</grpc.version>
         <gson.version>2.10</gson.version>
         <guava.version>31.1-jre</guava.version>
-        <hadoop.version>3.3.4</hadoop.version>
+        <hadoop.version>3.3.5</hadoop.version>
         <httpclient.version>4.5.13</httpclient.version>
         <httpccore.version>4.4.15</httpccore.version>
         <jackcess.version>4.0.4</jackcess.version>
@@ -227,7 +227,7 @@
         <target.jdk.version>11</target.jdk.version>
         <maven.compiler.source>${source.jdk.version}</maven.compiler.source>
         <maven.compiler.target>${target.jdk.version}</maven.compiler.target>
-        <compilerArgument />
+        <compilerArgument/>
 
         <!-- PHASE BINDINGS -->
         <set-highest-basedir-phase>initialize</set-highest-basedir-phase>
@@ -261,11 +261,11 @@
         </maven-surefire-plugin.reuseForks> <!-- default setting is reuseForks = true -->
         <maven-surefire-plugin.forkCount>1</maven-surefire-plugin.forkCount> <!-- default setting is forkCount = 1 -->
         <maven-surefire-plugin.testFailureIgnore>false</maven-surefire-plugin.testFailureIgnore>
-        <maven-surefire-plugin.argLine />
+        <maven-surefire-plugin.argLine/>
         <maven-failsafe-plugin.reuseForks>true
         </maven-failsafe-plugin.reuseForks> <!-- default setting is reuseForks = true -->
         <maven-failsafe-plugin.forkCount>1</maven-failsafe-plugin.forkCount> <!-- default setting is forkCount = 1 -->
-        <maven-failsafe-plugin.argLine />
+        <maven-failsafe-plugin.argLine/>
     </properties>
 
     <dependencyManagement>
