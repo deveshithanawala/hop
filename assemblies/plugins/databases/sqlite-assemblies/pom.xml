@@ -32,10 +32,10 @@
     <packaging>pom</packaging>
 
     <name>Hop Assemblies Plugins Databases SQLite</name>
-    <description />
+    <description/>
 
     <properties>
-        <sqlite.version>3.28.0</sqlite.version>
+        <sqlite.version>3.41.2.2</sqlite.version>
     </properties>
 
 
