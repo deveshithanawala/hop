@@ -29,7 +29,7 @@
     <version>2.4.0-SNAPSHOT</version>
     <packaging>pom</packaging>
     <name>Hop Assemblies Plugins Engines Beam</name>
-    <description />
+    <description/>
 
     <repositories>
         <repository>
@@ -112,7 +112,7 @@
         <dependency>
             <groupId>com.google.guava</groupId>
             <artifactId>guava</artifactId>
-            <version>31.1-jre</version>
+            <version>32.0.0-jre</version>
         </dependency>
         <dependency>
             <groupId>org.apache.flink</groupId>
@@ -459,7 +459,7 @@
         <dependency>
             <groupId>com.google.auto.service</groupId>
             <artifactId>auto-service</artifactId>
-            <version>1.0-rc4</version>
+            <version>1.1.1</version>
         </dependency>
         <dependency>
             <groupId>org.apache.spark</groupId>
