@@ -154,7 +154,7 @@
         <json-smart.version>2.4.8</json-smart.version>
         <jsch.version>0.1.55</jsch.version>
         <juniversalchardet.version>2.4.0</juniversalchardet.version>
-        <kafka-clients.version>3.3.1</kafka-clients.version>
+        <kafka-clients.version>3.5.1</kafka-clients.version>
         <kryo.version>5.3.0</kryo.version>
         <libthrift.version>0.17.0</libthrift.version>
         <log4j.version>2.19.0</log4j.version>
@@ -227,7 +227,7 @@
         <target.jdk.version>11</target.jdk.version>
         <maven.compiler.source>${source.jdk.version}</maven.compiler.source>
         <maven.compiler.target>${target.jdk.version}</maven.compiler.target>
-        <compilerArgument />
+        <compilerArgument/>
 
         <!-- PHASE BINDINGS -->
         <set-highest-basedir-phase>initialize</set-highest-basedir-phase>
@@ -261,11 +261,11 @@
         </maven-surefire-plugin.reuseForks> <!-- default setting is reuseForks = true -->
         <maven-surefire-plugin.forkCount>1</maven-surefire-plugin.forkCount> <!-- default setting is forkCount = 1 -->
         <maven-surefire-plugin.testFailureIgnore>false</maven-surefire-plugin.testFailureIgnore>
-        <maven-surefire-plugin.argLine />
+        <maven-surefire-plugin.argLine/>
         <maven-failsafe-plugin.reuseForks>true
         </maven-failsafe-plugin.reuseForks> <!-- default setting is reuseForks = true -->
         <maven-failsafe-plugin.forkCount>1</maven-failsafe-plugin.forkCount> <!-- default setting is forkCount = 1 -->
-        <maven-failsafe-plugin.argLine />
+        <maven-failsafe-plugin.argLine/>
     </properties>
 
     <dependencyManagement>
