@@ -178,7 +178,7 @@
         <scala.version>2.12.17</scala.version>
         <slf4j.version>2.0.4</slf4j.version>
         <sshlib.version>2.2.21</sshlib.version>
-        <snappy-java.version>1.1.8.4</snappy-java.version>
+        <snappy-java.version>1.1.10.4</snappy-java.version>
         <woodstox.version>6.4.0</woodstox.version>
         <zookeeper.version>3.8.0</zookeeper.version>
         <xerces.version>2.12.2</xerces.version>
@@ -227,7 +227,7 @@
         <target.jdk.version>11</target.jdk.version>
         <maven.compiler.source>${source.jdk.version}</maven.compiler.source>
         <maven.compiler.target>${target.jdk.version}</maven.compiler.target>
-        <compilerArgument />
+        <compilerArgument/>
 
         <!-- PHASE BINDINGS -->
         <set-highest-basedir-phase>initialize</set-highest-basedir-phase>
@@ -261,11 +261,11 @@
         </maven-surefire-plugin.reuseForks> <!-- default setting is reuseForks = true -->
         <maven-surefire-plugin.forkCount>1</maven-surefire-plugin.forkCount> <!-- default setting is forkCount = 1 -->
         <maven-surefire-plugin.testFailureIgnore>false</maven-surefire-plugin.testFailureIgnore>
-        <maven-surefire-plugin.argLine />
+        <maven-surefire-plugin.argLine/>
         <maven-failsafe-plugin.reuseForks>true
         </maven-failsafe-plugin.reuseForks> <!-- default setting is reuseForks = true -->
         <maven-failsafe-plugin.forkCount>1</maven-failsafe-plugin.forkCount> <!-- default setting is forkCount = 1 -->
-        <maven-failsafe-plugin.argLine />
+        <maven-failsafe-plugin.argLine/>
     </properties>
 
     <dependencyManagement>
