@@ -123,7 +123,7 @@
         <commons-fileupload.version>1.5</commons-fileupload.version>
         <commons-lang3.version>3.12.0</commons-lang3.version>
         <commons-logging.version>1.1.3</commons-logging.version>
-        <curator.version>5.4.0</curator.version>
+        <curator.version>5.6.0</curator.version>
         <encoder.version>1.2</encoder.version>
         <gax.version>2.19.5</gax.version>
         <google-api-common.version>2.2.2</google-api-common.version>
@@ -227,7 +227,7 @@
         <target.jdk.version>11</target.jdk.version>
         <maven.compiler.source>${source.jdk.version}</maven.compiler.source>
         <maven.compiler.target>${target.jdk.version}</maven.compiler.target>
-        <compilerArgument />
+        <compilerArgument/>
 
         <!-- PHASE BINDINGS -->
         <set-highest-basedir-phase>initialize</set-highest-basedir-phase>
@@ -261,11 +261,11 @@
         </maven-surefire-plugin.reuseForks> <!-- default setting is reuseForks = true -->
         <maven-surefire-plugin.forkCount>1</maven-surefire-plugin.forkCount> <!-- default setting is forkCount = 1 -->
         <maven-surefire-plugin.testFailureIgnore>false</maven-surefire-plugin.testFailureIgnore>
-        <maven-surefire-plugin.argLine />
+        <maven-surefire-plugin.argLine/>
         <maven-failsafe-plugin.reuseForks>true
         </maven-failsafe-plugin.reuseForks> <!-- default setting is reuseForks = true -->
         <maven-failsafe-plugin.forkCount>1</maven-failsafe-plugin.forkCount> <!-- default setting is forkCount = 1 -->
-        <maven-failsafe-plugin.argLine />
+        <maven-failsafe-plugin.argLine/>
     </properties>
 
     <dependencyManagement>
