@@ -119,7 +119,7 @@
         <batik.version>1.16</batik.version>
         <commons-beanutils.version>1.9.4</commons-beanutils.version>
         <commons-codec.version>1.15</commons-codec.version>
-        <commons-compress.version>1.21</commons-compress.version>
+        <commons-compress.version>1.26.0</commons-compress.version>
         <commons-fileupload.version>1.5</commons-fileupload.version>
         <commons-lang3.version>3.12.0</commons-lang3.version>
         <commons-logging.version>1.1.3</commons-logging.version>
@@ -227,7 +227,7 @@
         <target.jdk.version>11</target.jdk.version>
         <maven.compiler.source>${source.jdk.version}</maven.compiler.source>
         <maven.compiler.target>${target.jdk.version}</maven.compiler.target>
-        <compilerArgument />
+        <compilerArgument/>
 
         <!-- PHASE BINDINGS -->
         <set-highest-basedir-phase>initialize</set-highest-basedir-phase>
@@ -261,11 +261,11 @@
         </maven-surefire-plugin.reuseForks> <!-- default setting is reuseForks = true -->
         <maven-surefire-plugin.forkCount>1</maven-surefire-plugin.forkCount> <!-- default setting is forkCount = 1 -->
         <maven-surefire-plugin.testFailureIgnore>false</maven-surefire-plugin.testFailureIgnore>
-        <maven-surefire-plugin.argLine />
+        <maven-surefire-plugin.argLine/>
         <maven-failsafe-plugin.reuseForks>true
         </maven-failsafe-plugin.reuseForks> <!-- default setting is reuseForks = true -->
         <maven-failsafe-plugin.forkCount>1</maven-failsafe-plugin.forkCount> <!-- default setting is forkCount = 1 -->
-        <maven-failsafe-plugin.argLine />
+        <maven-failsafe-plugin.argLine/>
     </properties>
 
     <dependencyManagement>
