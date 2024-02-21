@@ -32,10 +32,10 @@
     <packaging>pom</packaging>
 
     <name>Hop Assemblies Plugins Databases PostgreSQL</name>
-    <description />
+    <description/>
 
     <properties>
-        <postgresql.version>42.4.3</postgresql.version>
+        <postgresql.version>42.7.2</postgresql.version>
     </properties>
 
     <dependencies>
