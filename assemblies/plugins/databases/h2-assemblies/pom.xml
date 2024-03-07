@@ -32,10 +32,10 @@
     <packaging>pom</packaging>
 
     <name>Hop Assemblies Plugins Databases H2</name>
-    <description />
+    <description/>
 
     <properties>
-        <h2.version>2.1.214</h2.version>
+        <h2.version>2.2.220</h2.version>
     </properties>
 
 
